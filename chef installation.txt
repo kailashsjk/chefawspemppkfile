@@ -1,0 +1,54 @@
+wget https://opscode-omnibus-packages.s3.amazonaws.com/ubuntu/12.04/x86_64/chef-server_11.0.10-1.ubuntu.12.04_amd64.deb
+
+sudo dpkg -i chef-server_11.0.10-1.ubuntu.12.04_amd64.deb
+
+sudo  chef-server-ctl reconfigure
+
+
+
+after login
+
+
+Public Key:
+
+-----BEGIN PUBLIC KEY-----
+MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA2nE/O4yvc7BvMvPUVRm1
+byhnDZkSLP+CzzRSByxZes9nuaNDvY39ZS3ed18DTM1SDcWzWOM7MDRnczGjJZ4E
+d50Z0sRdi6N47ywZfiSz0V3GonNSU4HuMpJX5v7P4OpZjeXZ3w9wnChY+bV6gVdw
+SIDnXzu5JVK3JNFHWRRgjWEr8jnUNh+QcyCceKFxk2dz+hGf1q+AheLikQk0xY3b
+mFrmBAGja7fRXCJz6/nvwB1jy5srzN4Rp49up/9hrvk4AMvRzyjfSSDsTj6AlT4u
+x/tghf7Yc7PtcaluXfpWeRYvpQE4T5K/ikSgc0P2l3x9bw3GzalWTdKptc3uKthy
+BQIDAQAB
+-----END PUBLIC KEY-----
+
+
+
+Private Key (Will not show again, Please copy!):
+
+-----BEGIN RSA PRIVATE KEY-----
+MIIEowIBAAKCAQEA2nE/O4yvc7BvMvPUVRm1byhnDZkSLP+CzzRSByxZes9nuaND
+vY39ZS3ed18DTM1SDcWzWOM7MDRnczGjJZ4Ed50Z0sRdi6N47ywZfiSz0V3GonNS
+U4HuMpJX5v7P4OpZjeXZ3w9wnChY+bV6gVdwSIDnXzu5JVK3JNFHWRRgjWEr8jnU
+Nh+QcyCceKFxk2dz+hGf1q+AheLikQk0xY3bmFrmBAGja7fRXCJz6/nvwB1jy5sr
+zN4Rp49up/9hrvk4AMvRzyjfSSDsTj6AlT4ux/tghf7Yc7PtcaluXfpWeRYvpQE4
+T5K/ikSgc0P2l3x9bw3GzalWTdKptc3uKthyBQIDAQABAoIBAA/1fh0nphnZpgYe
+8kBVZH/+f6jqqf1HnZLty6BiiRcD2Bwj5WsP2JdvxnUKJ/+QcJI5A2VXFJfs/DHa
+SoURClqCy8QuPHdbNhajLimdHNYK99weeMFJGNHxByMFMsLH3EsVo9k8E4oVGIsF
+yzFv5fAmGsFGZ7xmUqMJ9yB28Kbjc/fyp7IRhv7TFuTrzMm36NDKS/PfoRjTfv/D
+hkZqdAFE1aXCOQIw3loCR/2r3Tv9GBbGQmDHIzsnFGNTWqdnk4bUxksGa7lC2X1I
+Dk1zpZ2vEKiGP7Itg+kzrIqDtBfFS0fpQ2n+kZmNlhjrfzTbUV08ylFrq/AS7Eu/
+6PWAIfECgYEA77kuHlBlsdRV6HQ5cOMzL2olL/j0o1IHrpXXfF+qnIUMfUGBpfAG
+HFrRqubcGL2w4YRQelPoeUT9XiMGbA37qLbjaNzhkL+fal4i02jUavUXPBRRFdHX
+ioFSSsejYa8Sc97kWjszs96tAcX32r/7OJecfKQm8uDbLmZsCRen7fMCgYEA6UYq
+UA65K87M9r5TzsaffnunUWF+txwVz+46Kn/wzfRAI1Pv6LdDUnjVfYbxMzHHL04C
+juCas2x/skn1bofZQmGhjz1O2+u/YdnIgQk8DAo/H/mLGhTba1kobC90wiFpldrU
+MD6ccojGecH1Dsbm84rDOZN7QhNqvJxdJt7yhicCgYAAsPsGEVtJuQAKbJNh1PXn
+1BmJWuFxuyHUihAWBryaOPQBRHgYP2n1GPnz0TifRaTF8bi9sZJBD0bfx6AUHbI1
+GVnsin6ICVVvXBgjnfDG4jAP90sIkhNaDedr2cmJ1ZRrCyCDdho/EYxULfr6AYW6
+8wz7ewm1t5pKNvdmy0+rqwKBgQCbbQawRL8X8zgZhwKsGScXzSfUT1NwiaP24NGc
+k5ZMg1tgroKA2epfPudwNcLry1TdreqCbCBnP/ltP13qAVW+pvJQUBcE7PSdK9Au
+OYrqssEQeuI1xIPV6JfITW5MEpsZH66VXoI6xesIITU4XUpwJpqg+CT+B5XsiXp/
+dbi9rQKBgE/itrkvGcD5HvPygUeQQuLTCcrynsNLOebPksixf0yT7c17X3ZbKBlB
+xgCMmce3Y1DJjIMC/5LRFjeAYRcTLFRiLAkNhVuQundw7tEIMrownjlKoRlROnBx
+Qs5iitYvSMCjhIXrWtC0ZJTpn9rHa8pPUujBlfVbmYdCt82qbHsL
+-----END RSA PRIVATE KEY-----
